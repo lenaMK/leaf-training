@@ -107,6 +107,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/exercises/Montgomery_Letter/Montgomery_Letter.xml?place_annotation_20230306172348378",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-06T22:23:48.378Z",
+	"dcterms:modified": "2023-03-06T22:23:48.378Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lenaMK",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lena Krause"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/exercises/Montgomery_Letter/Montgomery_Letter.xml?place_annotation_20230306172348378#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/exercises/Montgomery_Letter/Montgomery_Letter.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/exercises/Montgomery_Letter/Montgomery_Letter.xml?place_annotation_20230306172348378#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q172",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
          <projectDesc>
             <p>This encoded file was created by Diane Jakacki and made available for a Linked
@@ -126,7 +205,7 @@
             <pb facs="https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Montgomery_Letter/Montgomery-Cloke_0002.jpg"/> 
             10 o’clock <del>oclock</del> and gets to <placeName key="Hamilton" ref="http://www.wikidata.org/entity/Q133116">Hamilton</placeName> at 2:13. I
             hope someone from your store can meet me at train as I am a stranger in Hamilton. I
-            shall want to leave for Toronto on 4:29 train. <persName>Professor Edgar</persName> said in his letter to me
+            shall want to leave for <placeName key="Toronto" ref="http://www.wikidata.org/entity/Q172">Toronto</placeName> on 4:29 train. <persName>Professor Edgar</persName> said in his letter to me
             that you wanted me to speak or 
             <pb facs="https://raw.githubusercontent.com/LEAF-VRE/training/main/getting_started/exercises/Montgomery_Letter/Montgomery-Cloke_0003.jpg"/> 
             read. That was why I referred to it. I am much
