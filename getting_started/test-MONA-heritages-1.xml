@@ -576,11 +576,90 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?place_annotation_20230511142755343",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-05-11T18:27:55.343Z",
+	"dcterms:modified": "2023-05-11T18:27:55.343Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lenaMK",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lena Krause"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?place_annotation_20230511142755343#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?place_annotation_20230511142755343#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/316885680/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="prose">
-				<head>Hôtel de ville</head><div cert="high" org="composite" part="Y" sample="initial" type="synthesis" xml:space="default"><p/><p>Le hameau de <placeName key="Cassville Quebec Canada" ref="https://geonames.org/5918073" cert="medium">Cassville</placeName> est fondé en 1799 par un groupe formé à <placeName cert="low" evidence="internal" full="yes" instant="unknown" xml:space="default">Epson</placeName>, au New Hampshire. Les " <persName>Nine Partners</persName> " incluent les trois frères Cass, qui donnent leur nom à l'emplacement. De foi protestante, le groupe construit rapidement les deux édifices constituant le coeur du village, soit l'église méthodiste (1806) et l'école (1817).</p><p>L'hôtel de ville, servant à l'origine d'école, aurait été construit par corvées, sur une propriété privée. L'école fonctionne grâce aux frais de scolarité et aux contributions volontaires des parents. En 1829, le gouvernement du Bas-Canada promulgue la Loi des écoles de syndics, ce qui permet l'octroi de subventions couvrant le salaire des maîtres, dont profite l'école de Cassville. Le nombre d'élèves augmente rapidement, et l'école jouit d'une bonne réputation; elle acquiert le statut d'académie en 1856. Une subvention importante est alors versée, incluant des fonds pour construire un nouvel édifice, ce qui ne sera jamais réalisé. Dès 1859, les élèves francophones sont admis à l'académie. À partir de 1861, le nombre d'élèves décroît. En 1871, l'institution redevient une simple école élémentaire. En 1875, l'école devient publique à la suite de son achat par la Corporation des commissaires d'écoles du Canton de Stanstead. Le nombre d'élèves diminue au point où l'école ferme en 1913. En 1917, la commission scolaire catholique loue l'édifice. Il est ouvert pour les protestants en 1920 et en 1921, puis est à nouveau loué par la commission scolaire catholique en 1923.</p><p>En 1929, la population vote une résolution pour que l'hôtel de ville, servant encore d'école, soit utilisé comme centre communautaire. Le grenier, utilisé autrefois pour héberger l'enseignant et quelques pensionnaires, est occupé par l'Independent Order of Good Temperance, la société d'histoire, puis par le Women's Institute. La commission scolaire catholique loue à nouveau l'édifice de 1942 à 1953.</p><p>En 1947, la commission scolaire protestante vend l'édifice à la Corporation municipale de Stanstead-Est. Le grenier est utilisé durant quelques années pour les réunions municipales, les danses et les événements sociaux. En 1950, l'édifice commence à servir d'hôtel de ville. En 1987, la démolition de l'hôtel de ville est considérée afin de permettre la construction d'un nouvel édifice municipal.</p><p>L'hôtel de ville est cité en 1988. La même année, des réparations sont faites aux fondations. En 1989, des travaux sont effectués pour réparer le perron, repeindre l'extérieur de l'édifice et remplacer les fenêtres. Le bâtiment sert encore d'hôtel de ville pour la municipalité de Stanstead-Est.</p></div><div cert="high" org="composite" part="Y" sample="initial" type="description" xml:space="default"><p>L'hôtel de ville est un édifice scolaire bâti en 1817. Le bâtiment en bois, de plan rectangulaire, compte un étage et demi et est coiffé d'un toit à deux versants droits. Aménagée dans l'un des murs pignons, la façade principale comporte un porche dans-oeuvre surmonté de deux fenêtres rectangulaires. Une annexe est construite à l'arrière de l'édifice. L'hôtel de ville est situé légèrement en retrait de la voie publique, dans le lieu-dit de Cassville de la municipalité de Stanstead-Est.</p><p>Ce bien est cité immeuble patrimonial. La protection s'applique à l'enveloppe extérieure du bâtiment.</p></div>
+				<head>Hôtel de ville</head><div cert="high" org="composite" part="Y" sample="initial" type="synthesis" xml:space="default"><p/><p>Le hameau de <placeName key="Cassville Quebec Canada" ref="https://geonames.org/5918073" cert="medium">Cassville</placeName> est fondé en 1799 par un groupe formé à <placeName cert="low" evidence="internal" full="yes" instant="unknown" xml:space="default">Epson</placeName>, au New Hampshire. Les " <persName>Nine Partners</persName> " incluent les trois frères Cass, qui donnent leur nom à l'emplacement. De foi protestante, le groupe construit rapidement les deux édifices constituant le coeur du village, soit l'église méthodiste (1806) et l'école (1817).</p><p>L'hôtel de ville, servant à l'origine d'école, aurait été construit par corvées, sur une propriété privée. L'école fonctionne grâce aux frais de scolarité et aux contributions volontaires des parents. En 1829, le gouvernement du Bas-Canada promulgue la Loi des écoles de syndics, ce qui permet l'octroi de subventions couvrant le salaire des maîtres, dont profite l'école de Cassville. Le nombre d'élèves augmente rapidement, et l'école jouit d'une bonne réputation; elle acquiert le statut d'académie en 1856. Une subvention importante est alors versée, incluant des fonds pour construire un nouvel édifice, ce qui ne sera jamais réalisé. Dès 1859, les élèves francophones sont admis à l'académie. À partir de 1861, le nombre d'élèves décroît. En 1871, l'institution redevient une simple école élémentaire. En 1875, l'école devient publique à la suite de son achat par la Corporation des commissaires d'écoles du <placeName key="Stanstead (Québec : Municipalité de canton)" ref="http://viaf.org/viaf/316885680/" cert="high">Canton de Stanstead</placeName>. Le nombre d'élèves diminue au point où l'école ferme en 1913. En 1917, la commission scolaire catholique loue l'édifice. Il est ouvert pour les protestants en 1920 et en 1921, puis est à nouveau loué par la commission scolaire catholique en 1923.</p><p>En 1929, la population vote une résolution pour que l'hôtel de ville, servant encore d'école, soit utilisé comme centre communautaire. Le grenier, utilisé autrefois pour héberger l'enseignant et quelques pensionnaires, est occupé par l'Independent Order of Good Temperance, la société d'histoire, puis par le Women's Institute. La commission scolaire catholique loue à nouveau l'édifice de 1942 à 1953.</p><p>En 1947, la commission scolaire protestante vend l'édifice à la Corporation municipale de Stanstead-Est. Le grenier est utilisé durant quelques années pour les réunions municipales, les danses et les événements sociaux. En 1950, l'édifice commence à servir d'hôtel de ville. En 1987, la démolition de l'hôtel de ville est considérée afin de permettre la construction d'un nouvel édifice municipal.</p><p>L'hôtel de ville est cité en 1988. La même année, des réparations sont faites aux fondations. En 1989, des travaux sont effectués pour réparer le perron, repeindre l'extérieur de l'édifice et remplacer les fenêtres. Le bâtiment sert encore d'hôtel de ville pour la municipalité de Stanstead-Est.</p></div><div cert="high" org="composite" part="Y" sample="initial" type="description" xml:space="default"><p>L'hôtel de ville est un édifice scolaire bâti en 1817. Le bâtiment en bois, de plan rectangulaire, compte un étage et demi et est coiffé d'un toit à deux versants droits. Aménagée dans l'un des murs pignons, la façade principale comporte un porche dans-oeuvre surmonté de deux fenêtres rectangulaires. Une annexe est construite à l'arrière de l'édifice. L'hôtel de ville est situé légèrement en retrait de la voie publique, dans le lieu-dit de Cassville de la municipalité de Stanstead-Est.</p><p>Ce bien est cité immeuble patrimonial. La protection s'applique à l'enveloppe extérieure du bâtiment.</p></div>
 			</div>
 			<div type="notes">
 				<head>Notes</head>
