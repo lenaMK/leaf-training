@@ -1342,6 +1342,163 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?place_annotation_20230511145730288",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-05-11T18:57:30.288Z",
+	"dcterms:modified": "2023-05-11T18:57:30.288Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lenaMK",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lena Krause"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?place_annotation_20230511145730288#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?place_annotation_20230511145730288#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q44012",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?date_annotation_20230511145735301",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-05-11T18:57:35.301Z",
+	"dcterms:modified": "2023-05-11T18:57:35.301Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/lenaMK",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Lena Krause"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?date_annotation_20230511145735301#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.0.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/lenaMK/leaf-training/main/getting_started/test-MONA-heritages-1.xml?date_annotation_20230511145735301#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div[2]/div/p[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1853"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.0.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1352,7 +1509,7 @@
 			
 			
 		<div cert="high" org="composite" part="Y" sample="initial" xml:space="default" type="prose" xml:id="493">
-				<head>Mausolée des Évêques-de-Trois-Rivières</head><div cert="high" org="composite" part="Y" sample="initial" type="synthesis" xml:space="default"><p/><p>Le mausolée des Évêques se situe dans le diocèse de Trois-Rivières. Ce dernier est fondé en 1852, lors d'un démembrement du diocèse de Québec. De 1854 à 1858, la cathédrale de l'Assomption est érigée. Le sous-sol de l'église sert de crypte. Plusieurs évêques, prêtres et religieux ainsi que quelques laïcs importants de la région y sont ensevelis. </p><p>En 1964, des travaux de restauration sont effectués à la cathédrale de l'Assomption. Deux salles communautaires sont aménagées au sous-sol, à l'emplacement de la crypte, nécessitant la translation des restes. Mgr Georges-Léon Pelletier (1904-1987) décide alors de faire ériger un mausolée dans le cimetière Saint-Michel pour accueillir les sépultures déplacées. Cette décision coïncide avec des travaux de réaménagement, qui prévoient la construction de monuments au centre du terrain. Le mausolée, qui comprend une chapelle funéraire extérieure de soixante places, est alors conçu par la firme Leclerc et Villemure.</p><p>Jean-Claude Leclerc (né en 1934) termine ses études en 1958. Il ouvre son propre bureau et engage le dessinateur Victor Pinheiro au début de la décennie 1960. L'année suivante, il s'associe avec l'architecte Roger Villemure. Lerclerc est inspiré par l'oeuvre tardive de Le Corbusier (1887-1965), qui se caractérise par ses formes expressives. Il travaille avec le chef d'atelier de ce dernier, André Wogenscky (1916-2004), lors d'un séjour en Europe. Cette influence se reflète dans ses créations, particulièrement entre 1964 et 1967. </p><p>La construction du mausolée débute à l'automne 1965 et se termine au printemps suivant. Les corps sont exhumés de la crypte, identifiés et inhumés dans leur nouveau lieu de sépulture à l'été 1966. Le mausolée abrite les sépultures de Mgr Thomas Cooke (1792-1870), premier évêque du diocèse nommé en 1852, ainsi que de ses successeurs, Mgr Louis-François Richer dit Laflèche (1818-1898), Mgr François-Xavier Cloutier (1848-1934), Mgr Alfred-Odilon Comtois (1876-1945). Les restes de 45 autres personnes, également ensevelies sous la cathédrale, sont enterrés en périphérie du monument. Parmi celles-ci se trouvent des évêques auxiliaires, des prêtres et quelques laïcs importants, dont le juge Dominique Mondelet (1798-1863), le seigneur Joseph-Michel Boucher de Niverville (1808-1870) et son fils, Louis-Charles Boucher de Niverville (1825-1869), avocat, maire et député. Le monument funéraire est inauguré au printemps 1967. Le calvaire, visible à travers une percée de la structure, est installé en 1968.</p><p>Au fil des ans, les corps de 22 prêtres sont mis en terre autour du mausolée. Mgr Georges-Léon Pelletier repose auprès de ses prédécesseurs, à l'intérieur du monument qu'il a fait construire. </p><p>Le mausolée des Évêques-de-Trois-Rivières est cité en 2007. Il est classé en 2009.</p></div><div cert="high" org="composite" part="Y" sample="initial" type="description" xml:space="default"><p>Le mausolée des Évêques-de-Trois-Rivières est un bâtiment religieux de tradition catholique érigé en 1965 et 1966. Cette structure en béton, inspirée par l'expressionnisme formel, présente un plan irrégulier. Elle est composée de deux parties, soit le mausolée proprement dit et une chapelle funéraire. De plan semi-ovale, le mausolée est bas, refermé et surmonté d'un toit irrégulier à deux versants. La chapelle, de forme semi-conique, est percée à sa base de larges ouvertures non cloisonnées. Le mausolée des Évêques-de-Trois-Rivières est situé au centre du cimetière Saint-Michel, dans la ville de Trois-Rivières.\n\nCe bien est classé immeuble patrimonial. Il est aussi cité immeuble patrimonial.</p><p/></div>
+				<head>Mausolée des Évêques-de-Trois-Rivières</head><div cert="high" org="composite" part="Y" sample="initial" type="synthesis" xml:space="default"><p/><p>Le mausolée des Évêques se situe dans le diocèse de <placeName key="Trois-Rivières" ref="http://www.wikidata.org/entity/Q44012">Trois-Rivières</placeName>. Ce dernier est fondé en <date when="1853">1852</date>, lors d'un démembrement du diocèse de Québec. De 1854 à 1858, la cathédrale de l'Assomption est érigée. Le sous-sol de l'église sert de crypte. Plusieurs évêques, prêtres et religieux ainsi que quelques laïcs importants de la région y sont ensevelis. </p><p>En 1964, des travaux de restauration sont effectués à la cathédrale de l'Assomption. Deux salles communautaires sont aménagées au sous-sol, à l'emplacement de la crypte, nécessitant la translation des restes. Mgr Georges-Léon Pelletier (1904-1987) décide alors de faire ériger un mausolée dans le cimetière Saint-Michel pour accueillir les sépultures déplacées. Cette décision coïncide avec des travaux de réaménagement, qui prévoient la construction de monuments au centre du terrain. Le mausolée, qui comprend une chapelle funéraire extérieure de soixante places, est alors conçu par la firme Leclerc et Villemure.</p><p>Jean-Claude Leclerc (né en 1934) termine ses études en 1958. Il ouvre son propre bureau et engage le dessinateur Victor Pinheiro au début de la décennie 1960. L'année suivante, il s'associe avec l'architecte Roger Villemure. Lerclerc est inspiré par l'oeuvre tardive de Le Corbusier (1887-1965), qui se caractérise par ses formes expressives. Il travaille avec le chef d'atelier de ce dernier, André Wogenscky (1916-2004), lors d'un séjour en Europe. Cette influence se reflète dans ses créations, particulièrement entre 1964 et 1967. </p><p>La construction du mausolée débute à l'automne 1965 et se termine au printemps suivant. Les corps sont exhumés de la crypte, identifiés et inhumés dans leur nouveau lieu de sépulture à l'été 1966. Le mausolée abrite les sépultures de Mgr Thomas Cooke (1792-1870), premier évêque du diocèse nommé en 1852, ainsi que de ses successeurs, Mgr Louis-François Richer dit Laflèche (1818-1898), Mgr François-Xavier Cloutier (1848-1934), Mgr Alfred-Odilon Comtois (1876-1945). Les restes de 45 autres personnes, également ensevelies sous la cathédrale, sont enterrés en périphérie du monument. Parmi celles-ci se trouvent des évêques auxiliaires, des prêtres et quelques laïcs importants, dont le juge Dominique Mondelet (1798-1863), le seigneur Joseph-Michel Boucher de Niverville (1808-1870) et son fils, Louis-Charles Boucher de Niverville (1825-1869), avocat, maire et député. Le monument funéraire est inauguré au printemps 1967. Le calvaire, visible à travers une percée de la structure, est installé en 1968.</p><p>Au fil des ans, les corps de 22 prêtres sont mis en terre autour du mausolée. Mgr Georges-Léon Pelletier repose auprès de ses prédécesseurs, à l'intérieur du monument qu'il a fait construire. </p><p>Le mausolée des Évêques-de-Trois-Rivières est cité en 2007. Il est classé en 2009.</p></div><div cert="high" org="composite" part="Y" sample="initial" type="description" xml:space="default"><p>Le mausolée des Évêques-de-Trois-Rivières est un bâtiment religieux de tradition catholique érigé en 1965 et 1966. Cette structure en béton, inspirée par l'expressionnisme formel, présente un plan irrégulier. Elle est composée de deux parties, soit le mausolée proprement dit et une chapelle funéraire. De plan semi-ovale, le mausolée est bas, refermé et surmonté d'un toit irrégulier à deux versants. La chapelle, de forme semi-conique, est percée à sa base de larges ouvertures non cloisonnées. Le mausolée des Évêques-de-Trois-Rivières est situé au centre du cimetière Saint-Michel, dans la ville de Trois-Rivières.\n\nCe bien est classé immeuble patrimonial. Il est aussi cité immeuble patrimonial.</p><p/></div>
 			</div></body>
 	</text>
 </TEI>
